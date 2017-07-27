@@ -4,10 +4,13 @@ Arise -One Page Respossive HTML5 Bootstrap Template
 
 
 body{
+    font-family: 'Rajdhani', sans-serif;
 	-webkit-font-smoothing: antialiased;
 }
 
-
+.container-fluid {
+    max-width: 1170px;
+}
 
 /*Common snippets
 =======================================*/
