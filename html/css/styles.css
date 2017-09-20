@@ -6,6 +6,8 @@ Arise -One Page Respossive HTML5 Bootstrap Template
 body{
     font-family: 'Rajdhani', sans-serif;
 	-webkit-font-smoothing: antialiased;
+	font-size: 14px;
+	line-height: normal;
 }
 
 .container-fluid {
@@ -19,6 +21,12 @@ ul, li {
 	list-style: none;
 	padding: 0;
 	margin: 0;
+}
+h1, h2, h3 {
+	font-weight: 400;
+}
+p {
+	font-weight: 500;
 }
 a, a:hover {
 	color: #333;
@@ -155,7 +163,16 @@ a, a:hover {
 .about {
 	padding: 80px 0;
 }
-
+.about-blocks {
+	margin: 50px 0 0 0;
+}
+.about-element {
+	text-align: center;
+}
+.about-element h3 {
+	text-transform: uppercase;
+	margin-bottom: 15px; 
+}
 
 
  /*---------------------------------------
@@ -165,7 +182,9 @@ a, a:hover {
 	padding: 80px 0;
 	background: #e2ecf3;
 }
-
+.team-members {
+	margin-top: 50px;
+}
 
 
 
